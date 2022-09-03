@@ -1,4 +1,6 @@
 const express = require("express");
+
+const hostname= '0.0.0.0';
 const path = require("path");
 
 const app = express();
