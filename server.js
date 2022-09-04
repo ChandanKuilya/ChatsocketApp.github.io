@@ -1,4 +1,5 @@
 const express = require("express");
+const PORT= 5000;
 const hostname= '0.0.0.0';
 
 const path = require("path");
@@ -8,7 +9,6 @@ const server = require("http").createServer(app);
 
 const io = require("socket.io")(server);
 
-const PORT= 3000;
 app.use(express.static(path.join(__dirname+"/public")));
 
 io.on("connection", function(socket){
