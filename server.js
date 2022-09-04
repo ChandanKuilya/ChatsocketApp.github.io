@@ -1,6 +1,6 @@
 const express = require("express");
 const PORT= 5000;
-const hostname= '0.0.0.0';
+//const hostname= '0.0.0.0';
 
 const path = require("path");
 
